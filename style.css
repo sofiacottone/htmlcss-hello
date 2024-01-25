@@ -9,34 +9,38 @@ body {
     color: linen;
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     font-family: "Roboto", sans-serif;
 }
 
 h1 {
     text-align: center;
-    color: rgb(0, 217, 255);
+    color: #3495f6;
     padding: 10px;
+    font-size: 50px;
+    text-shadow: 5px 6px rgba(0, 0, 0, 0.3);
 }
 
 .infos {
     border: 2px solid black;
-    width: 400px;
-    height: 300px;
-    margin: 50px auto 260px auto;
-    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    margin: 70px auto 220px auto;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     background-color: #1f3953;
-    box-shadow: #181719;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
 }
 
 .logo {
     width: 100%;
-    height: 45px;
+    height: 55px;
     background-color: rgb(5, 97, 163);
-    border-radius: 3px;
+    border-radius: 13px 13px 0 0;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .logo img {
@@ -49,7 +53,7 @@ h1 {
 }
 
 .info {
-    padding: 20px 0 0 30px;
+    padding: 30px 0 0 30px;
 }
 
 .subject {
@@ -68,7 +72,7 @@ h1 {
 hr {
     border: 1px solid black;
     width: 90%;
-    margin: 20px auto;
+    margin: 40px auto 10px auto;
 }
 
 .contacts {
