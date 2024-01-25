@@ -9,7 +9,7 @@ body {
     color: linen;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .info {
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 30px;
 }
 
 .subject {
@@ -56,4 +56,21 @@ h1 {
     text-align: right;
     display: inline-block;
     text-align: right;
+}
+
+hr {
+    border: 1px solid black;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.contacts {
+    padding: 10px 0 10px 30px;
+    color: #3495f6;
+    font-weight: 700;
+}
+
+.contact {
+    display: inline-block;
+    margin: 10px 8px 0 0;
 }
