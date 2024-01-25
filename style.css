@@ -10,6 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     /* overflow: hidden; */
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -26,19 +27,25 @@ h1 {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    background-color: #1f3953;
+    box-shadow: #181719;
 }
 
 .logo {
     width: 100%;
-    height: 40px;
-    background-color: #1f3953;
-    border-radius: 5px;
+    height: 45px;
+    background-color: rgb(5, 97, 163);
+    border-radius: 3px;
+    position: relative;
 }
 
 .logo img {
-    height: 100%;
+    height: 90%;
     object-fit: cover;
     border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    right: 5px;
 }
 
 .info {
